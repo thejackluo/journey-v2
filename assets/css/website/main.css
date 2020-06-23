@@ -34,7 +34,10 @@ button {
 */
 
 button {
-  color: lightblue;
+  background-color: white;
+  color: blue;
+  border: 2px blue solid;
+  padding: 10px 20px;
 }
 
 /* 
