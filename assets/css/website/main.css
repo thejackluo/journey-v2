@@ -4,3 +4,49 @@
 	* Author: Jack Luo
 	* License: None
 	======================================================== */
+
+/* 
+	Font
+*/
+
+@font-face {
+  font-family: something;
+  src: url();
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+th,
+td,
+button {
+  font-family: Verdana, sans-serif;
+}
+
+/* 
+	Basics 
+*/
+
+button {
+  color: lightblue;
+}
+
+/* 
+	Classes 
+*/
+
+/* 
+	IDs
+*/
+
+/*
+	Other
+*/
+
+/* Scroll Bar */
