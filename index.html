@@ -31,17 +31,34 @@
     -->
     <div class="root-container">
       <!-- Header -->
-      <header>
-        <h1 class="text-align-center white">Jack Luo</h1>
+      <header id="header">
+        <a href="https://example.com">
+          <h1 class="text-align-center margin-y1" id="header-text">
+            Jack Luo
+          </h1>
+        </a>
+
+        <h6>
+          <a
+            href="https://example.com"
+            class="typewrite typewriter-text text-align-center margin-y1"
+            data-period="2000"
+            data-type='[ "Hey! I am Jack.", "I enjoy coding.", "Food is awesome.", "Learn more about me below." ]'
+          >
+            <span class="wrap"></span>
+          </a>
+        </h6>
       </header>
       <!-- Nav Bar -->
       <nav>
-        <ul>
-          <a href=""><li>Hello</li></a>
-          <a href=""><li>Hello</li></a>
-          <a href=""><li>Hello</li></a>
-          <a href=""><li>Hello</li></a>
-        </ul>
+        <div>
+          <ul>
+            <a href=""><li>Hello</li></a>
+            <a href=""><li>Hello</li></a>
+            <a href=""><li>Hello</li></a>
+            <a href=""><li>Hello</li></a>
+          </ul>
+        </div>
       </nav>
 
       <div id="page-one">
@@ -50,7 +67,7 @@
           <!-- Section 1 -->
 
           <section>
-            <button>Icon here for Menu</button>
+            <button id="nav-bar-button">Icon here for Menu</button>
             <h3 class="text-align-center">Welcome to Jack</h3>
             <a href="https://example.com">Link</a>
             <br />
@@ -114,10 +131,33 @@
 
       <!-- Footer -->
       <footer>
-        <form action="">
-          <input type="text" />
-          <input type="submit" />
-        </form>
+        <div class="flex-container">
+          <div class="flex-item margin-x3">
+            <h3 class="text-align-center">Welcome to Jack</h3>
+            <a href="https://example.com">Link</a>
+          </div>
+          <div class="flex-item margin-x3">
+            <form action="">
+              <input type="text" />
+              <input type="submit" />
+            </form>
+            <a href="https://example.com">Email</a>
+            <a href="https://example.com">Phone</a>
+            <a href="https://example.com">Address</a>
+          </div>
+          <div class="flex-item margin-x3">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
+              quas.
+            </p>
+            <p>
+              Instagram
+            </p>
+            <p>
+              Discord
+            </p>
+          </div>
+        </div>
       </footer>
     </div>
 

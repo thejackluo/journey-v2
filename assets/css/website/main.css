@@ -29,9 +29,23 @@
 	Basics 
 */
 
+/* Containers */
+
 div {
   box-sizing: border-box;
+  border: 2px solid red;
 }
+
+header {
+  text-align: center;
+}
+
+header,
+footer {
+  color: white;
+}
+
+/* Text */
 
 h1,
 h2,
@@ -161,10 +175,29 @@ main {
 	Classes 
 */
 
+/* Div Properties */
+
 .root-container {
   background-color: #394648;
   display: inline-block;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item {
+  padding: 2em;
+}
+
+/* Properties */
+
+.typewriter-text {
+  border-bottom: none;
+}
+
+/* Permanent Properties */
 
 .text-align-center {
   text-align: center;
@@ -178,6 +211,12 @@ main {
   margin: auto;
   width: 90%;
   background-color: #ddd;
+}
+
+#header-text {
+  border: 4px solid white;
+  padding: 0.5em;
+  display: inline-block;
 }
 
 /*
@@ -201,6 +240,11 @@ main {
   color: #9c7178;
 }
 
+.margin-y0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .margin-y1 {
   margin-top: 0.25em;
   margin-bottom: 0.25em;
@@ -219,6 +263,31 @@ main {
 .margin-y4 {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.margin-x0 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.margin-x1 {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+
+.margin-x2 {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.margin-x3 {
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+}
+
+.margin-x4 {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 /*
