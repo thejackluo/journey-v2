@@ -99,7 +99,7 @@ a:hover {
 }
 
 button {
-  background-color: white;
+  background-color: transparent;
   color: #7692ff;
   border: 2px solid #7692ff;
   padding: 0.5em 1.25em;
@@ -135,7 +135,7 @@ input[type="text"]:focus {
 }
 
 input[type="submit"] {
-  background-color: white;
+  background-color: transparent;
   color: #7692ff;
   border: 2px solid #7692ff;
   padding: 0.5em 1.25em;
@@ -162,7 +162,7 @@ main {
 */
 
 .root-container {
-  background-color: white;
+  background-color: #394648;
   display: inline-block;
 }
 
@@ -191,6 +191,34 @@ main {
 
 .darkgrey {
   color: #394648;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.copper {
+  color: #9c7178;
+}
+
+.margin-y1 {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.margin-y2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.margin-y3 {
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.margin-y4 {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 /*
