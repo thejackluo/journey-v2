@@ -183,7 +183,7 @@ main {
 
 .flex-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .flex-item {
@@ -223,7 +223,7 @@ main {
 */
 
 /* Colors */
-.green {
+.lightgreen {
   color: #a5c882;
 }
 
@@ -289,6 +289,33 @@ main {
   margin-right: 1em;
 }
 
+:root {
+  --blue: #007bff;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
 /*
 	Other
 */
