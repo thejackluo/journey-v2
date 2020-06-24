@@ -33,7 +33,6 @@
 
 div {
   box-sizing: border-box;
-  border: 2px solid red;
 }
 
 header {
@@ -295,3 +294,8 @@ main {
 */
 
 /* Scroll Bar */
+
+/* Development */
+div {
+  border: 1px solid red;
+}
