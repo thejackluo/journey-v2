@@ -10,7 +10,10 @@
 */
 
 @font-face {
-  font-family: something;
+  font-family: "Open Sans Normal";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
   src: url();
 }
 
@@ -36,7 +39,7 @@ button {
 button {
   background-color: white;
   color: blue;
-  border: 2px blue solid;
+  border: 2px solid blue;
   padding: 10px 20px;
 }
 
