@@ -79,7 +79,7 @@ h6 {
 
 h5,
 h6 {
-  color: #eeeeee;
+  color: #999999;
 }
 
 p {
@@ -100,15 +100,15 @@ a:hover {
 
 button {
   background-color: white;
-  color: #92bcea;
-  border: 2px solid #92bcea;
+  color: #7692ff;
+  border: 2px solid #7692ff;
   padding: 0.5em 1.25em;
   border-radius: 8px;
   transition: background-color 400ms, color 400ms;
 }
 
 button:hover {
-  background-color: #92bcea;
+  background-color: #7692ff;
   color: white;
 }
 
@@ -136,25 +136,62 @@ input[type="text"]:focus {
 
 input[type="submit"] {
   background-color: white;
-  color: #92bcea;
-  border: 2px solid #92bcea;
+  color: #7692ff;
+  border: 2px solid #7692ff;
   padding: 0.5em 1.25em;
   border-radius: 8px;
   transition: background-color 400ms, color 400ms;
 }
 
 input[type="submit"]:hover {
-  background-color: #92bcea;
+  background-color: #7692ff;
   color: white;
+}
+
+th,
+td {
+  padding: 1em;
+}
+
+main {
+  margin: 1em;
 }
 
 /* 
 	Classes 
 */
 
+.root-container {
+  background-color: white;
+  display: inline-block;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
 /* 
 	IDs
 */
+
+#page-one {
+  margin: auto;
+  width: 90%;
+  background-color: #ddd;
+}
+
+/*
+	Bootstrap Based Classes
+*/
+
+/* Colors */
+.green {
+  color: #a5c882;
+}
+
+.darkgrey {
+  color: #394648;
+}
 
 /*
 	Other
