@@ -29,13 +29,19 @@
 	Basics 
 */
 
+div {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-button {
+button,
+input[type="text"],
+input[type="submit"] {
   font-family: "Raleway Normal", Verdana, sans-serif;
 }
 
@@ -94,9 +100,16 @@ a:hover {
 
 button {
   background-color: white;
-  color: blue;
-  border: 2px solid blue;
+  color: #92bcea;
+  border: 2px solid #92bcea;
   padding: 0.5em 1.25em;
+  border-radius: 8px;
+  transition: background-color 400ms, color 400ms;
+}
+
+button:hover {
+  background-color: #92bcea;
+  color: white;
 }
 
 img {
@@ -111,7 +124,28 @@ img:hover {
 input[type="text"] {
   padding: 0.5em;
   margin: 0.5em;
-  border-radius: 0.25em;
+  border: 1px solid #aaaaaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border 400ms;
+}
+
+input[type="text"]:focus {
+  border: 1px solid grey;
+}
+
+input[type="submit"] {
+  background-color: white;
+  color: #92bcea;
+  border: 2px solid #92bcea;
+  padding: 0.5em 1.25em;
+  border-radius: 8px;
+  transition: background-color 400ms, color 400ms;
+}
+
+input[type="submit"]:hover {
+  background-color: #92bcea;
+  color: white;
 }
 
 /* 
