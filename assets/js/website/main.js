@@ -4,11 +4,10 @@
   * Author: Jack Luo
   * License: None
   ======================================================== */
+$("nav, body").hide();
 
 $(document).ready(function () {
-  $("nav, body").hide();
-  $("body").delay("fast").fadeIn("slow");
-
+  $("body").delay("slow").fadeIn(1000);
   $("#nav-bar-button").click(function () {
     $("nav").slideToggle(400);
   });
