@@ -174,6 +174,19 @@ main {
   margin: 1em;
 }
 
+nav {
+  background-color: #293638;
+  opacity: 0.75;
+  position: sticky;
+  top: 0;
+  transition: opacity 400ms;
+  z-index: 20;
+}
+
+nav:hover {
+  opacity: 1;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -276,9 +289,20 @@ article {
 	IDs
 */
 
-#nav-bar-button {
+#nav-bar-button-open {
+  color: black;
+  border: 2px solid black;
   position: sticky;
   top: 1em;
+  margin-top: 1em;
+}
+
+#nav-bar-button-close {
+  color: white;
+  border: 2px solid white;
+  position: sticky;
+  top: 1em;
+  margin-top: 1em;
 }
 
 /*
@@ -395,6 +419,3 @@ article {
 /* Scroll Bar */
 
 /* Development */
-div {
-  border: 1px solid red;
-}
