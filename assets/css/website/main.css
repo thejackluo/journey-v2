@@ -215,6 +215,10 @@ nav h6 {
   margin: 0;
 }
 
+article {
+  text-align: center;
+}
+
 /* 
 	Classes 
 */
@@ -228,7 +232,8 @@ nav h6 {
 
 .flex-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  text-align: center;
 }
 
 .flex-item {
@@ -252,10 +257,23 @@ nav h6 {
 	IDs
 */
 
-#page-one {
+#page-one-normal {
+  margin: auto;
+  width: 100%;
+  background-color: #ddd;
+  transition: width 1000ms, background-color 1000ms, opacity 1000ms;
+}
+
+#page-one-small {
   margin: auto;
   width: 90%;
-  background-color: #ddd;
+  background-color: #999;
+  opacity: 0.5;
+}
+
+#nav-bar-button {
+  position: sticky;
+  top: 1em;
 }
 
 /*
