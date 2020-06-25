@@ -174,7 +174,7 @@ main {
 	Classes 
 */
 
-/* Div Properties */
+/* Container Properties */
 
 .root-container {
   background-color: #394648;
@@ -188,6 +188,40 @@ main {
 
 .flex-item {
   padding: 2em;
+  display: inline-block;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Combine those two together */
+header h1 {
+    border: 4px solid #ccc;
+    padding: 0.5em;
+    display: inline-block;
+    transition: color 400ms, border 400ms;
+}
+
+header h1 h1:hover {
+  border: 4px dotted white;
+  color: var(--white);
+}
+/* Combine those two together */
+
+header a,
+nav a {
+  text-decoration: none;
+  border-bottom: none !important;
+  color: #ccc;
+  transition: color 400ms;
+}
+
+header a:hover,
+nav a:hover {
+  color: var(--white);
 }
 
 /* Properties */
@@ -198,7 +232,7 @@ main {
 
 /* Permanent Properties */
 
-.text-align-center {
+.text-align-center
   text-align: center;
 }
 
@@ -210,12 +244,6 @@ main {
   margin: auto;
   width: 90%;
   background-color: #ddd;
-}
-
-#header-text {
-  border: 4px solid white;
-  padding: 0.5em;
-  display: inline-block;
 }
 
 /*
@@ -237,6 +265,14 @@ main {
 
 .copper {
   color: #9c7178;
+}
+
+.lightblue {
+  color: #92bcea;
+}
+
+.darkblue {
+  color: #7692ff;
 }
 
 .margin-y0 {
@@ -296,6 +332,7 @@ main {
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
+  --lightgreen: #a5c882;
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
