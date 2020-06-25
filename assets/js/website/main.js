@@ -10,6 +10,8 @@ $(document).ready(function () {
   $("body").delay("slow").fadeIn(1000);
   $("#nav-bar-button").click(function () {
     $("nav").slideToggle(400);
+    $("header").slideToggle(400);
+    $("#active-page").toggleClass("page-one-normal page-one-small");
   });
 });
 

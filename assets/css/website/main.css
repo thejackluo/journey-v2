@@ -241,6 +241,25 @@ article {
   display: inline-block;
 }
 
+/* Pages */
+
+/* Changed into class for testing */
+.page-one-normal {
+  margin: auto;
+  width: 100%;
+  background-color: #ddd;
+  transition: width 1000ms, background-color 1000ms, opacity 1000ms;
+}
+
+.page-one-small {
+  margin: auto;
+  width: 90%;
+  background-color: #999;
+  opacity: 0.5;
+  transition: width 1000ms, background-color 1000ms, opacity 1000ms;
+}
+/* Changed into class for testing */
+
 /* Properties */
 
 .typewriter-text {
@@ -256,20 +275,6 @@ article {
 /* 
 	IDs
 */
-
-#page-one-normal {
-  margin: auto;
-  width: 100%;
-  background-color: #ddd;
-  transition: width 1000ms, background-color 1000ms, opacity 1000ms;
-}
-
-#page-one-small {
-  margin: auto;
-  width: 90%;
-  background-color: #999;
-  opacity: 0.5;
-}
 
 #nav-bar-button {
   position: sticky;
