@@ -6,8 +6,11 @@
   ======================================================== */
 
 $(document).ready(function () {
+  $("nav, body").hide();
+  $("body").delay("fast").fadeIn("slow");
+
   $("#nav-bar-button").click(function () {
-    $("h1").toggle();
+    $("nav").slideToggle(400);
   });
 });
 

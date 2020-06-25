@@ -170,6 +170,47 @@ main {
   margin: 1em;
 }
 
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Combine those two together */
+header h1 {
+  padding: 0.5em;
+  display: inline-block;
+  border: 4px solid #ccc;
+  color: #ccc;
+  transition: color 400ms, border 400ms, text-shadow 400ms;
+}
+
+header h1:hover {
+  border: 4px solid white;
+  color: white;
+  text-shadow: 0 0 5px #ffffff;
+}
+
+header a,
+nav a {
+  text-decoration: none;
+  border-bottom: none !important;
+  color: #ccc;
+  transition: color 400ms, text-shadow 400ms;
+}
+
+header a:hover,
+nav a:hover {
+  color: white;
+  text-shadow: 0 0 2px #ffffff;
+}
+
+nav h6 {
+  padding: 0.5em;
+  display: inline-block;
+  margin: 0;
+}
+
 /* 
 	Classes 
 */
@@ -191,39 +232,6 @@ main {
   display: inline-block;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-/* Combine those two together */
-header h1 {
-    border: 4px solid #ccc;
-    padding: 0.5em;
-    display: inline-block;
-    transition: color 400ms, border 400ms;
-}
-
-header h1 h1:hover {
-  border: 4px dotted white;
-  color: var(--white);
-}
-/* Combine those two together */
-
-header a,
-nav a {
-  text-decoration: none;
-  border-bottom: none !important;
-  color: #ccc;
-  transition: color 400ms;
-}
-
-header a:hover,
-nav a:hover {
-  color: var(--white);
-}
-
 /* Properties */
 
 .typewriter-text {
@@ -232,7 +240,7 @@ nav a:hover {
 
 /* Permanent Properties */
 
-.text-align-center
+.text-align-center {
   text-align: center;
 }
 
