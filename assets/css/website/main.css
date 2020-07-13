@@ -271,6 +271,21 @@ article {
   opacity: 0.5;
   transition: width 1000ms, background-color 1000ms, opacity 1000ms;
 }
+
+/* .full-page {
+  opacity: 0;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: auto;
+  background-color: #ddd;
+  transition: width 1000ms, background-color 1000ms, opacity 1000ms;
+}
+
+.full-page:target {
+  opacity: 1;
+} */
 /* Changed into class for testing */
 
 /* Properties */
