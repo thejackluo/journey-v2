@@ -271,6 +271,22 @@ article {
   margin: 1em;
 }
 
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
 /* Pages */
 
 /* Changed into class for testing */
@@ -449,24 +465,38 @@ article {
 */
 
 /* Media Queries */
-@media screen and (max-width: 1200px) {
-  .col-6 {
-    width: 50%;
-  }
-
-  .col-4 {
+@media screen and (max-width: 992px) {
+  .col-3 {
     width: 33.33%;
   }
-
-  .col-3 {
-    width: 25%;
-  }
-}
-
-@media screen and (max-width: 992px) {
 }
 
 @media screen and (max-width: 768px) {
+  .col-6 {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 50%;
+  }
+
+  .col-3 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 0px) {
+  .col-6 {
+    width: 100%;
+  }
+
+  .col-4 {
+    width: 100%;
+  }
+
+  .col-3 {
+    width: 100%;
+  }
 }
 
 /* Scroll Bar */
