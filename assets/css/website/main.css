@@ -256,6 +256,7 @@ article {
   display: flex;
   flex-flow: row warp;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
