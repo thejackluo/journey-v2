@@ -254,7 +254,8 @@ article {
 
 .flex-container {
   display: flex;
-  flex-flow: row warp;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
