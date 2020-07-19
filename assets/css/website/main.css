@@ -263,6 +263,20 @@ article {
   display: inline-block;
 }
 
+.col-6 {
+}
+
+.col-4 {
+}
+
+.col-3 {
+}
+
+.info-box {
+  border-radius: 2em;
+  box-shadow: darkgrey;
+}
+
 /* Pages */
 
 /* Changed into class for testing */
