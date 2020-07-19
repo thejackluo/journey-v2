@@ -275,6 +275,7 @@ article {
 .info-box {
   border-radius: 2em;
   box-shadow: darkgrey;
+  background-color: white;
 }
 
 /* Pages */
