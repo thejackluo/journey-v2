@@ -203,6 +203,14 @@ nav ul {
 }
 
 /* Combine those two together */
+header {
+  background: linear-gradient(
+    0deg,
+    rgba(57, 70, 72, 1) 0%,
+    rgba(11, 14, 14, 1) 100%
+  );
+}
+
 header h1 {
   padding: 0.5em;
   display: inline-block;
@@ -249,6 +257,8 @@ article {
 
 .root-container {
   background-color: #394648;
+  /* #394648; */
+  /* 384547 */
   display: inline-block;
 }
 
