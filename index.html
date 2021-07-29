@@ -19,7 +19,13 @@
     />
     <meta content="Entrepreneur" name="keywords" />
     <link rel="stylesheet" href="assets/css/frameworks/normalize.min.css" />
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/frameworks/fontawesome-all.min.css"
+    />
     <link rel="stylesheet" href="assets/css/website/main.css" />
+
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -42,7 +48,6 @@
         <h1 class="text-align-center margin-y4">
           <a href="https://example.com"> Jack Luo </a>
         </h1>
-
         <h6>
           <a
             href="https://example.com"
@@ -59,10 +64,18 @@
         <button id="nav-bar-button-close" class="margin-x2">Close Menu</button>
         <div class="flex-container navbar">
           <ul>
-            <a href="#home" class="flex-item navbar-item"><li>Home</li></a>
-            <a href="#about" class="flex-item navbar-item"><li>About</li></a>
-            <a href="#blog" class="flex-item navbar-item"><li>Blogs</li></a>
-            <a href="#faq" class="flex-item navbar-item"><li>FAQ</li></a>
+            <a href="#home" class="flex-item navbar-item nav-home"
+              ><li>Home</li></a
+            >
+            <a href="#about" class="flex-item navbar-item nav-about"
+              ><li>About</li></a
+            >
+            <a href="#blog" class="flex-item navbar-item nav-blogs"
+              ><li>Blogs</li></a
+            >
+            <a href="#faq" class="flex-item navbar-item nav-faq"
+              ><li>FAQ</li></a
+            >
           </ul>
         </div>
         <div class="flex-container navbar">
@@ -76,11 +89,14 @@
           </ul>
         </div>
       </nav>
-      <div id="home" class="full-page page-one-normal">
+
+      <button id="nav-bar-button-open">Open Menu</button>
+
+      <div id="home" class="page-one-normal full-page">
         <!-- Main -->
         <main>
           <!-- Section 1 -->
-          <button id="nav-bar-button-open">Open Menu</button>
+
           <section>
             <h3 class="text-align-center margin-y1">Welcome to Jack</h3>
             <br />
@@ -168,19 +184,19 @@
         </main>
       </div>
 
-      <div id="about" class="full-page page-one-normal">
+      <div id="about" class="page-one-normal full-page">
         <!-- Main -->
         <main>
           <h1>About</h1>
         </main>
       </div>
-      <div id="blog" class="full-page page-one-normal">
+      <div id="blog" class="page-one-normal full-page">
         <!-- Main -->
         <main>
           <h1>Blogs</h1>
         </main>
       </div>
-      <div id="faq" class="full-page page-one-normal">
+      <div id="faq" class="page-one-normal full-page">
         <!-- Main -->
         <main>
           <div class="featured faq">
@@ -198,13 +214,13 @@
           <h1>FAQ</h1>
         </main>
       </div>
-      <div id="404" class="full-page page-one-normal">
+      <div id="404" class="page-one-normal full-page">
         <!-- Main -->
         <main>
           <h1>404</h1>
         </main>
       </div>
-      <div id="accomplishment-failure" class="full-page page-one-normal">
+      <div id="accomplishment-failure" class="page-one-normal full-page">
         <!-- Main -->
         <main>
           <h1>Accomplishment & Failure</h1>
@@ -232,13 +248,24 @@
               <a href="https://example.com">Address</a>
             </div>
           </div>
+        </div>
+        <div class="flex-container">
           <div class="flex-item margin-x3">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-              quas.
-            </p>
-            <p>Instagram: @thejackluo</p>
-            <p>Discord: thejackluo#0678</p>
+            <p>© Copyright 2021: thejackluo</p>
+            <div>
+              <a href="https://www.instagram.com/thejackluo">
+                <i class="fab fa-instagram footer-icon"></i>
+              </a>
+              <a href="https://facebook.com/thejackluo">
+                <i class="fab fa-facebook footer-icon"></i>
+              </a>
+              <a href="https://www.discord.com">
+                <i class="fab fa-discord footer-icon"></i>
+              </a>
+              <a href="https://www.github.com/thejackluo">
+                <i class="fab fa-github footer-icon"></i>
+              </a>
+            </div>
           </div>
         </div>
       </footer>

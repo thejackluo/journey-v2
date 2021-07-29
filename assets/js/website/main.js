@@ -11,14 +11,14 @@ $(document).ready(function () {
   $("#nav-bar-button-open").click(function () {
     $("nav").slideDown(400);
     $("header").slideUp(400);
-    $("#active-page").toggleClass("page-one-normal page-one-small");
+    $(".active-page").toggleClass("page-one-normal page-one-small");
     $("#nav-bar-button-open").fadeOut();
     $("#nav-bar-button-close").fadeIn();
   });
   $("#nav-bar-button-close").click(function () {
     $("nav").slideUp(400);
     $("header").slideDown(400);
-    $("#active-page").toggleClass("page-one-normal page-one-small");
+    $(".active-page").toggleClass("page-one-normal page-one-small");
     $("#nav-bar-button-close").fadeOut();
     $("#nav-bar-button-open").fadeIn();
   });
